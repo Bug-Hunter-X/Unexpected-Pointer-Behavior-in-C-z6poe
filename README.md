@@ -1,0 +1,3 @@
+# Unexpected Pointer Behavior in C
+This repository demonstrates a subtle bug related to pointer manipulation in C.  The `bug.c` file contains code that exhibits unexpected behavior due to incorrect pointer usage. The `bugSolution.c` file provides the corrected code.
+The primary issue lies in directly modifying a variable's value using a pointer without understanding potential side effects.  This example highlights the importance of careful pointer management in C to avoid introducing memory-related errors.
